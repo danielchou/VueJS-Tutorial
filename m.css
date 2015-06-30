@@ -1,0 +1,7 @@
+* { font-size:28px; }
+body{ width:1000px; margin:10px auto; display:block; }
+div, input{
+ padding:5px 10px; margin:15px;
+}
+div{ border:solid 1px #ddd;}
+input {border:solid 1px #444;}

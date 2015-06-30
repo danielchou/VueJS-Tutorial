@@ -1,7 +1,13 @@
 
-var vm=new Vue({    /* ==> view model */
+var vm = new Vue({  /* ==> view model */
   el: "body",       /* ==> view  */
   data: {           /* ==> model */
-    msg:"12312eeee"
+    user:"Daniel",
+	member:""
+  },
+  methods:{
+	AddNewMember:function(){
+		this.member=this.user;
+	}
   }
 });
